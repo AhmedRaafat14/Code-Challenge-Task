@@ -5,6 +5,7 @@ namespace Tests\Unit;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
+use GuzzleHttp\Client;
 
 class ExampleTest extends TestCase
 {
@@ -16,16 +17,12 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        // $this->withoutMiddleware();
+        $client = new Client();
 
-        // $response = $this->get('/api/hotels');
+        $response = $client->request('GET', 'http://localhost/task/api/hotels');
 
-        // $response->assertJsonFragment([
-        //     'name' => 'Concorde Hotel',
-        // ]);
+        $this->assertEquals(200, $response->getStatusCode());
 
-        // $response->assertStatus(200);
-
-        $this->assertTrue(true);
+        // $this->assertTrue(true);
     }
 }
