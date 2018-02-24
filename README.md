@@ -75,5 +75,5 @@ This so simple task to search and sort some data which fetched from this url: ht
               http://localhost/task/api/hotels/sort/name/desc
               
 
-# Travis Patch:
-  ![travis test image](https://drive.google.com/open?id=11Qt0q2Tii3RNVssgvEAHZyQh9-notBTU)
+# Travis badge:
+  ![](https://github.com/AhmedRaafat14/Code-Challenge-Task/blob/master/travis.png)
