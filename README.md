@@ -24,12 +24,13 @@ This so simple task to search and sort some data which fetched from this url: ht
                 Assumations:
                   I assumed user entered any chars and validate if this chars exist in any hotel name so it will selected as one user searched for it, and user want to sort selected hotels by price in asc order, if we left the last two vars empty will sort them by price in asc as a defualt option for sorting.
               """
+              ```
               http://localhost/task/api/hotels/search/name/le/price/asc
               http://localhost/task/api/hotels/search/name/le/price/desc
               http://localhost/task/api/hotels/search/name/le/name/asc
               http://localhost/task/api/hotels/search/name/le/name/desc
               http://localhost/task/api/hotels/search/name/le
-         
+          ```
          -- By destination city:
               """
                 Assumations:
