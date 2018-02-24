@@ -1,9 +1,9 @@
-
-Ruby: false
-JavaScript: false
-Python: false
-PHP: true
+languages:
+  Ruby: false
+  JavaScript: false
+  Python: false
+  PHP: true
 
 exclude_paths:
-  - tests/*
-  - vendor/*
+- tests/*
+- vendor/*
