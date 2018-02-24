@@ -1,8 +1,7 @@
 
-Ruby: false
-JavaScript: false
-Python: false
-PHP: true
+language: php
+php:
+  - 7.1.3
 
 exclude_patterns:
 - tests/*
