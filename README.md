@@ -73,3 +73,7 @@ This so simple task to search and sort some data which fetched from this url: ht
             # to sort all by name in asc or desc:
               http://localhost/task/api/hotels/sort/name/asc
               http://localhost/task/api/hotels/sort/name/desc
+              
+
+# Travis Patch:
+  ![travis test image](https://drive.google.com/open?id=11Qt0q2Tii3RNVssgvEAHZyQh9-notBTU)
