@@ -73,10 +73,21 @@ This so simple task to search and sort some data which fetched from this url: ht
             # to sort all by name in asc or desc:
               http://localhost/task/api/hotels/sort/name/asc
               http://localhost/task/api/hotels/sort/name/desc
-              
+
+# Unit Test:
+    - For search by name:
+        run in terminal: vendor/bin/phpunit tests/Unit/SearchByName.php
+    - For search by city:
+        run in terminal: vendor/bin/phpunit tests/Unit/SearchByCity.php
+    - For search by price:
+        run in terminal: vendor/bin/phpunit tests/Unit/SearchByPrice.php
+    - For search by date:
+        run in terminal: vendor/bin/phpunit tests/Unit/SearchByDate.php
+    - For Sort:
+        run in terminal: vendor/bin/phpunit tests/Unit/Sort.php
 
 # Travis badge:
-  ![](https://github.com/AhmedRaafat14/Code-Challenge-Task/blob/master/travis.png)
+  [![Build Status](https://travis-ci.org/AhmedRaafat14/Code-Challenge-Task.svg?branch=master)](https://travis-ci.org/AhmedRaafat14/Code-Challenge-Task)
   
 # Codeclimate badge:
-  ![](https://github.com/AhmedRaafat14/Code-Challenge-Task/blob/master/codecimate_badge.png)
+  [![Maintainability](https://api.codeclimate.com/v1/badges/0d314d29f132840f5e43/maintainability)](https://codeclimate.com/github/AhmedRaafat14/Code-Challenge-Task/maintainability)
