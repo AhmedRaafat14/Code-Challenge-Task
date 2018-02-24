@@ -1,10 +1,21 @@
 
 version: "2"
 
-Ruby: false
-JavaScript: false
-Python: false
-PHP: true
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - php
+  phpcodesniffer:
+    enabled: true
+  phpmd:
+    enabled: true
+    checks:
+      CleanCode/ElseExpression:
+        enabled: false
+      Controversial/Superglobals:
+        enabled: false
 
 exclude_patterns:
 - tests/*
