@@ -1,7 +1,7 @@
 
 version: "2"
 
-engines:
+plugins:
   duplication:
     enabled: true
     config:
