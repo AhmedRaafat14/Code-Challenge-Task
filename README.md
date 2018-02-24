@@ -79,4 +79,4 @@ This so simple task to search and sort some data which fetched from this url: ht
   ![](https://github.com/AhmedRaafat14/Code-Challenge-Task/blob/master/travis.png)
   
 # Codeclimate badge:
-  ![](https://github.com/AhmedRaafat14/Code-Challenge-Task/blob/master/codecimate_badge.png)
+  ![](https://github.com/AhmedRaafat14/Code-Challenge-Task/blob/master/codeclimate_build%2315.png)
