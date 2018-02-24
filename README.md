@@ -77,3 +77,6 @@ This so simple task to search and sort some data which fetched from this url: ht
 
 # Travis badge:
   ![](https://github.com/AhmedRaafat14/Code-Challenge-Task/blob/master/travis.png)
+  
+# Codeclimate badge:
+  ![](https://github.com/AhmedRaafat14/Code-Challenge-Task/blob/master/codecimate_badge.png)
